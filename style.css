@@ -1,0 +1,180 @@
+body{
+    margin: 5%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(49, 116, 49);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.split {
+    float: right;
+    background-color: rgb(49, 116, 49);
+    color: white;
+  }
+  .topnav2 {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .topnav2 a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav2 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav2 a.split {
+    float: right;
+    background-color: white;
+    color: black;
+  }
+  #page1{
+    display: flex;
+    flex: auto auto;
+  }
+  #image1{
+    height: 500px;
+    width: 200px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-style: initial;
+    font-size: 30px;
+    font-weight:900;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .inspirationimages{
+    display: grid;
+    grid-template-rows: auto auto;
+    
+  }
+  #inspiration{
+    width: 30%;
+    height: 60%;
+  }
+  #orchidimage{
+    width: 30%;
+    height: 60%;
+
+  }
+  .inspirationplants{
+    display: flex;
+    flex: auto auto ;
+    gap: 10px;
+    background-color: rgb(231, 247, 241);
+  }
+  .orchid{
+    display: flex;
+    flex: auto auto ;
+    gap: 10px;
+    background-color: rgb(231, 247, 241);
+
+  }
+  #houseplant2{
+   height: 200px;
+
+  }
+  #houseplant1image{
+    height: 200px;
+  }
+  .page2{
+    display: flex;
+    flex: auto auto auto;
+  }
+#cactus{
+    display: flex;
+    flex: auto auto;
+
+}
+#houseplant1{
+    display: flex;
+    flex: auto auto;
+
+
+}
+.houseplant2{
+    display: flex;
+    flex: auto auto;
+}
+#potted{
+    height: 300px;
+    width: auto;
+  }
+  @media screen and (min-width:400px),(max-width:1000px){
+    .page2{
+        flex-wrap: wrap;
+    }
+    .page1{
+        flex-wrap: wrap;
+    }
+    #potted{
+        width: 200px;
+    }
+    .page3{
+        flex-wrap: wrap;
+    }
+    #potsgrid1{
+        flex-wrap: wrap;
+    }
+    #potsgrid2{
+        flex-wrap: wrap;
+    }
+    #driftpot{
+        
+        width:300px;
+    }
+    #cactusimage{
+        width: 200px;
+    }
+    #potted{
+        width: 200px;
+    }
+    .topnav{
+        width: 350px;
+    }
+
+
+
+    
+  }
+  .page3{
+    display: flex;
+    flex: auto auto;
+  }
+  #potsgrid1{
+    display: flex;
+    flex: auto auto auto;
+  }
+
+  #potsgrid2{
+    display: flex;
+    flex: auto auto auto;
+  }
+
+  
+ 
