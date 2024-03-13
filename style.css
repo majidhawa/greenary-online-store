@@ -172,5 +172,8 @@ body{
     flex: auto auto auto;
   }
 
-  
+ .page4{
+    display: flex;
+    flex: auto auto;
+ } 
  
